@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-lg-6 col-md-12 fondo">
+      <div class="col-4 offset-1">
+        <h1 class="text-white">epik</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-auto col-sm-auto p-5">
+          <div>
+            <div id="f3" ></div>
+          </div>
+          <div id="f1" class="offset-2">
+            <div>
+              <div id="f2"></div>
+            </div>
+          </div>
+          <div>
+            <div id="f4"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 offset-4">
+          <div class="form-group row"><a class="text-white">Powered by</a> <a class="ml-2 text-white epik">epik</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 log">
+      <div class="col-sm-4 offset-4 p-5">
+        <div id="logoLogin">
+          <div class="row">
+            <div class="p-5">
+              <div>
+                <div id="sf3"></div>
+              </div>
+              <div id="sf1" class="offset-2">
+                <div>
+                  <div id="sf2"></div>
+                </div>
+              </div>
+              <div>
+                <div id="sf4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p id="core">Core</p>
+      </div>
+      <div>
+        <p class="texto">Inicio de sesión</p>
+      </div>
+      <div class="col-10 offset-1">
+        <p class="texto2 text-center">Ingrese los datos de usuario y contraseña para acceder a la plataforma</p>
+      </div>
+      <div class="col-8 offset-2 mb-4">
+        <form #loginForm="ngForm" (ngSubmit)="ingresar()">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" name="user" [(ngModel)]="login.Email" placeholder="Usuario" required>
+          </div>
+          <div class="form-group">
+           <input type="password" class="form-control" id="password" name="uspassworder" [(ngModel)]="login.Password" placeholder="Contraseña" required>
+          </div>
+          <div class="offset-1" *ngIf="restLogin.IdError">
+            <h6 class="text-danger">{{restLogin.Mensaje}}</h6>
+          </div>
+          <button type="submit" class="btn  btn-block" [disabled]="!loginForm.form.valid">Iniciar sesión</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

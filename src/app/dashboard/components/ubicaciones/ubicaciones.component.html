@@ -1,0 +1,20 @@
+<div class="bg-white mt-5 p-3 mb-5">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Dimension</th>
+        <th scope="col">Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rest of response">
+        <td>{{rest.name}}</td>
+        <td>{{rest.type}}</td>
+        <td>{{rest.dimension}}</td>
+        <td><i class="large material-icons" (click)="Dettale(rest)">visibility</i></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

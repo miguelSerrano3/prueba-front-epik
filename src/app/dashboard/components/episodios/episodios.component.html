@@ -1,0 +1,18 @@
+<div class="bg-white mt-5 p-3 mb-5">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id <i class="large material-icons cursor" (click)="ordenarData()">swap_vert</i></th>
+        <th scope="col">Name</th>
+        <th scope="col">Air date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rest of response">
+        <td>{{rest.id}}</td>
+        <td>{{rest.name}}</td>
+        <td>{{rest.air_date}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

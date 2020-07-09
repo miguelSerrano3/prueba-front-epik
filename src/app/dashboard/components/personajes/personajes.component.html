@@ -1,0 +1,12 @@
+<div class="col-md-4 mb-4" *ngFor="let res of response">
+  <div class="card mt-4">
+    <img [src]="res.image" class="card-img-top w-50 m-auto borderRadius">
+    <div class="card-header text-center">
+      {{res.name}}
+    </div>
+    <div class="card-body text-justify">
+    <p><strong>Gender</strong> : {{res.gender}}</p>
+    <p><strong>Species</strong> : {{res.species}}</p>
+    </div>
+  </div>
+</div>

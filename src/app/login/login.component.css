@@ -1,0 +1,140 @@
+.fondo{
+  background: #263247;
+}
+.log{
+  -webkit-box-shadow: 1px 2px 5px #b1aeae;
+}
+#f1{
+    width: 320px;
+    height: 333px;
+    border: 25px solid #0F1828;
+    border-radius: 50%;
+    border-left-style: inset;
+    border-left-color: #fff0;
+    transform: rotate(-11deg);
+}
+#f2{
+width: 210px;
+    height: 211px;
+    border: 33px solid #0F1828;
+    border-radius: 68%;
+    margin-top: 40px;
+    margin-left: 32px;
+}
+#f3{
+position: absolute;
+    background: #0F1828;
+    transform: rotate(-16.89deg);
+    margin-top: 212px;
+    width: 172px;
+    height: 19px;
+    margin-left: -49px;
+}
+#f4{
+position: absolute;
+    background: #0F1828;
+    transform: rotate(-16.89deg);
+    margin-top: -245px;
+    width: 169px;
+    height: 19px;
+    margin-left: 354px;
+}
+.epik{
+  font-size: 29px;
+  margin-top: -12px;
+}
+#logoLogin{
+  background: #263247;
+  width: 89px;
+  height: 90px;
+}
+#sf1{
+    width: 79px;
+    height: 78px;
+    border: 8px solid #59FABF;
+    border-radius: 50%;
+    border-left-style: inset;
+    border-left-color: #fff0;
+    transform: rotate(-11deg);
+    margin-top: -44px;
+    margin-left: -33px;
+}
+#sf2{
+    width: 43px;
+    height: 43px;
+    border: 5px solid #59FABF;
+    border-radius: 68%;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+#sf3{
+    position: absolute;
+    background: #59FABF;
+    transform: rotate(-16.89deg);
+    margin-top: 0px;
+    width: 41px;
+    height: 9px;
+    margin-left: -51px;
+}
+#sf4{
+    position: absolute;
+    background: #59FABF;
+    transform: rotate(-16.89deg);
+    margin-top: -60px;
+    width: 41px;
+    height: 9px;
+    margin-left: 40px;
+}
+#core{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 7px;
+    text-align: center;
+    color: #263247;
+    margin-top: -33px;
+}
+.texto{
+    height: 25px;
+    left: 62.4%;
+    right: 16.21%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.0461539px;
+    color: #263247;
+    margin-top: 50px;
+}
+.texto2{
+color: #263247;
+}
+#email{
+height: 42px;
+left: 0px;
+right: 0px;
+top: calc(50% - 42px/2 - 9.5px);
+background: #FFFFFF;
+border: 1.3px solid #C2C9D3;
+box-sizing: border-box;
+border-radius: 12px;
+}
+#password{
+height: 42px;
+left: 0px;
+right: 0px;
+top: calc(50% - 42px/2 - 9.5px);
+background: #FFFFFF;
+border: 1.3px solid #C2C9D3;
+box-sizing: border-box;
+border-radius: 12px;
+}
+button{
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #C2C9D3;
+border-radius: 24px;
+}
